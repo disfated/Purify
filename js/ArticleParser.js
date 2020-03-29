@@ -374,10 +374,10 @@
       if( eElement )
       {
          eElement.id        = "";
-         eElement.className = "";
 
          if( eElement.removeAttribute )
          {
+            eElement.removeAttribute( "class" );
             eElement.removeAttribute( "style" );
             eElement.removeAttribute( "width" );
             eElement.removeAttribute( "height" );
